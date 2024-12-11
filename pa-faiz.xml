@@ -91,6 +91,8 @@
   <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
   <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="faiz" />
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+  <project path="packages/services/DeviceAsWebcam" name="android_packages_services_DeviceAsWebcam" remote="faiz" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="faiz" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="faiz" />
