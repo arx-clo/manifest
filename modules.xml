@@ -26,7 +26,6 @@
   <remove-project name="platform/prebuilts/module_sdk/SdkExtensions" />
   <remove-project name="platform/prebuilts/module_sdk/StatsD" />
   <remove-project name="platform/prebuilts/module_sdk/Uwb" />
-  <remove-project name="platform/prebuilts/module_sdk/WebViewBootstrap" />
   <remove-project name="platform/prebuilts/module_sdk/Wifi" />
 
   <project path="prebuilts/module_sdk" name="android_prebuilts_modules_sdk" clone-depth="1" remote="blobs-gitlab-ssh" />
