@@ -120,10 +120,6 @@
   <!-- AOSOA-priv (signing & pif)-->
   <project path="vendor/aospa-priv" name="pa-faiz/vendor_aospa-priv" remote="github-ssh" revision="master" />
 
-  <!-- Prebuilts -->
-  <remove-project name="AOSPA/android_prebuilts_extract-tools" />
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-22.1" />
-
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="android_system_core" remote="faiz" />
@@ -135,10 +131,6 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="faiz" />
   <remove-project name="platform/system/libhidl" />
   <project path="system/libhidl" name="android_system_libhidl" remote="faiz" />
-
-  <!-- Tools -->
-  <remove-project name="AOSPA/android_tools_extract-utils" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-22.1" />
 
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
