@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="blobs-gitlab-ssh"
+  <!-- <remote  name="blobs-gitlab-ssh"
            fetch="ssh://git@gitlab.com/ThankYouMario"
-           revision="vauxite" />
+           revision="vauxite" /> -->
 
   <remove-project name="platform/prebuilts/module_sdk/art" />
   <remove-project name="platform/prebuilts/module_sdk/AdServices" />
@@ -27,8 +27,8 @@
   <remove-project name="platform/prebuilts/module_sdk/StatsD" />
   <remove-project name="platform/prebuilts/module_sdk/Uwb" />
   <remove-project name="platform/prebuilts/module_sdk/Wifi" />
-
+<!-- 
   <project path="prebuilts/module_sdk" name="android_prebuilts_modules_sdk" clone-depth="1" remote="blobs-gitlab-ssh" />
-  <project path="vendor/google/modules" name="proprietary_vendor_google_modules" clone-depth="1" remote="blobs-gitlab-ssh" />
+  <project path="vendor/google/modules" name="proprietary_vendor_google_modules" clone-depth="1" remote="blobs-gitlab-ssh" /> -->
 
 </manifest>
