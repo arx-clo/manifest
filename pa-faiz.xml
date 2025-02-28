@@ -63,7 +63,7 @@
 
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="mohdfazil130155/android_frameworks_base" remote="gitlab-ssh" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="faiz" />
   <remove-project name="AOSPA/android_frameworks_av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="faiz" />
   <remove-project name="AOSPA/android_frameworks_native" />
