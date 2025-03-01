@@ -44,6 +44,10 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
+  <remote  name="gitlab-ssh"
+           fetch="ssh://git@gitlab.com"
+           revision="vauxite" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
