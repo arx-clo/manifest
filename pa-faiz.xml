@@ -122,6 +122,8 @@
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="faiz" />
   <project path="packages/apps/Twelve" name="android_packages_apps_Twelve" remote="faiz" revision="lineage-22.1" />
+  <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="faiz" />
 
   <!-- AOSOA-priv (signing & pif)-->
   <project path="vendor/aospa-priv" name="pa-faiz/vendor_aospa-priv" remote="github-ssh" revision="master" />
